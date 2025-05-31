@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Links -->
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./script.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  <title>Fake Bank Homepage</title>
+</head>
+<body>
+  <header class="flex-row">
+    <div id="header-logo" class="header-logo-container flex-row">
+      <img src="./assets/icon.png" alt="" width="688" height="690">
+      <h4>FakeBank</h4>
+    </div>
+    <ul id="nav-links-container" class="nav-container flex-row">
+      <li><a class="nav-link" href="#features-section">Features</a></li>
+      <li><a class="nav-link" href="#operations-section">Operations</a></li>
+      <li><a class="nav-link" href="#testimonials-section">Testimonials</a></li>
+      <li><button id="button-open-new-account-modal" class="button button-new-account">Open account</button></li>
+    </ul>
+  </header>
+  <div id="header-threshold" class="header-threshold"></div>
+
+  <main>
+    <section class="hero-container trailing-divider">
+      <h1>When <span class="word-highlight">banking</span> and learning <span class="word-highlight">webdev</span> collide</h1>
+      <h2 class="hero-h2">Just a simple banking home page</h2>
+      <a href="#features-section" class="hero-jump-link">Learn more ↓</a>
+      <img class="hero-img" src="./assets/hero.png" alt="Overlapping images of a simple keyboard and mouse, a dollar bill and an herb" width="900" height="722">
+    </section>
+
+    <section id="features-section" class="features-container trailing-divider">
+      <div id="features-section-heading" class="section-heading">
+        <h3>Features</h3>
+        <h2>Let's see what we can learn from this project</h2>
+      </div>
+
+      <div class="features-grid-wrapper">
+        <article class="feature">
+          <img src="./assets/digital-lazy.jpg"
+            data-src="./assets/digital.jpg"
+            alt="Clean and simple desk with pc peripherals and a monitor displaying the bank's user account website" width="2000"
+            height="1192"
+            class="blur-lazy-img">
+          <div class="feature-text">
+            <div class="svg-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="24" height="24">
+                <path d="M64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l176 0-10.7 32L160 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-69.3 0L336 416l176 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM512 64l0 224L64 288 64 64l448 0z"/>
+              </svg>
+            </div>
+            <h3>100% Not Real</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam debitis ducimus</p>
+          </div>
+        </article>
+
+
+        <article class="feature">
+          <div class="feature-text">
+            <div class="svg-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="24" height="24">
+                <path d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32l160 0c17.7 0 32 14.3 32 32l0 160c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-82.7L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160 384 160z"/>
+              </svg>
+            </div>
+            <h3>Watch your money wilt</h3>
+            <p>Odd choice of a picture for a section about growth. If you ask me those leafs suggest wilting and decline rather than growing profits</p>
+          </div>
+          <img src="./assets/grow-lazy.jpg" data-src="./assets/grow.jpg" alt="Two large leafs in a transparent vase" width="2000" height="1200" class="blur-lazy-img">
+        </article>
+
+
+
+        <article class="feature">
+          <img src="./assets/card-lazy.jpg" data-src="./assets/card.jpg" alt="Debit card with the bank's logo" width="1999" height="1200" class="blur-lazy-img">
+          <div class="feature-text">
+            <div class="svg-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="24" height="24">
+                <path d="M64 32C28.7 32 0 60.7 0 96l0 32 576 0 0-32c0-35.3-28.7-64-64-64L64 32zM576 224L0 224 0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-192zM112 352l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16z"/>
+              </svg>
+            </div>
+            <h3>Pay card with annoying requirements included</h3>
+            <p>Quasi, fungi in cumque cupiditate reprehenderit debitis animi enim eveniet consequatur odit quam quos possimus assumenda dicta fuga inventore ab</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="operations-section" class="operations-container trailing-divider">
+      <div id="operations-section-heading" class="section-heading">
+        <h3>Operations</h3>
+        <h2>Everything as simple as possible - none of this works</h2>
+      </div>
+
+      <div class="operations-tabs-container">
+
+        <input type="radio" name="operations-tabs" id="instant-transfer" checked>
+        <label for="instant-transfer">
+          <div class="tab-name">Instant Transfers</div>
+          <article class="tab-content">
+            <div class="svg-icon transfers">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="24" height="24">
+                <path d="M535 41c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l64 64c4.5 4.5 7 10.6 7 17s-2.5 12.5-7 17l-64 64c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l23-23L384 112c-13.3 0-24-10.7-24-24s10.7-24 24-24l174.1 0L535 41zM105 377l-23 23L256 400c13.3 0 24 10.7 24 24s-10.7 24-24 24L81.9 448l23 23c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L7 441c-4.5-4.5-7-10.6-7-17s2.5-12.5 7-17l64-64c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM96 64l241.9 0c-3.7 7.2-5.9 15.3-5.9 24c0 28.7 23.3 52 52 52l117.4 0c-4 17 .6 35.5 13.8 48.8c20.3 20.3 53.2 20.3 73.5 0L608 169.5 608 384c0 35.3-28.7 64-64 64l-241.9 0c3.7-7.2 5.9-15.3 5.9-24c0-28.7-23.3-52-52-52l-117.4 0c4-17-.6-35.5-13.8-48.8c-20.3-20.3-53.2-20.3-73.5 0L32 342.5 32 128c0-35.3 28.7-64 64-64zm64 64l-64 0 0 64c35.3 0 64-28.7 64-64zM544 320c-35.3 0-64 28.7-64 64l64 0 0-64zM320 352a96 96 0 1 0 0-192 96 96 0 1 0 0 192z"/>
+              </svg>
+            </div>
+            <div class="tab-text">
+              <h3>Transfer money to any of the other three users. No fees, no delay.</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+        </article>
+        </label>
+
+        <input type="radio" name="operations-tabs" id="permissive-loans">
+        <label for="permissive-loans">
+          <div class="tab-name">Permissive Loans</div>
+          <article class="tab-content">
+            <div class="svg-icon loans">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24">
+                <path d="M116.7 33.8c4.5-6.1 11.7-9.8 19.3-9.8l240 0c7.6 0 14.8 3.6 19.3 9.8l112 152c6.8 9.2 6.1 21.9-1.5 30.4l-232 256c-4.5 5-11 7.9-17.8 7.9s-13.2-2.9-17.8-7.9l-232-256c-7.7-8.5-8.3-21.2-1.5-30.4l112-152zm38.5 39.8c-3.3 2.5-4.2 7-2.1 10.5l57.4 95.6L63.3 192c-4.1 .3-7.3 3.8-7.3 8s3.2 7.6 7.3 8l192 16c.4 0 .9 0 1.3 0l192-16c4.1-.3 7.3-3.8 7.3-8s-3.2-7.6-7.3-8L301.5 179.8l57.4-95.6c2.1-3.5 1.2-8.1-2.1-10.5s-7.9-2-10.7 1L256 172.2 165.9 74.6c-2.8-3-7.4-3.4-10.7-1z"/>
+              </svg>
+            </div>
+            <div class="tab-text">
+              <h3>Imagine buying yourself something nice with a fictional loan.</h3>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+            </div>
+          </article>
+        </label>
+
+        <input type="radio" name="operations-tabs" id="easy-closing">
+        <label for="easy-closing">
+          <div class="tab-name">Easy Closing</div>
+          <article class="tab-content">
+            <div class="svg-icon closing">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="24" height="24">
+                <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L353.3 251.6C407.9 237 448 187.2 448 128C448 57.3 390.7 0 320 0C250.2 0 193.5 55.8 192 125.2L38.8 5.1zM264.3 304.3C170.5 309.4 96 387.2 96 482.3c0 16.4 13.3 29.7 29.7 29.7l388.6 0c3.9 0 7.6-.7 11-2.1l-261-205.6z"/>
+              </svg>
+            </div>
+            <div class="tab-text">
+              <h3>No longer need your account? No problem - just reload the page!</h3>
+              <p>
+                I haven't learned about local storage or databases yet! Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              </p>
+            </div>
+          </article>
+        </label>
+      </div>
+    </section>
+
+    <section id="testimonials-section" class="testimonials-container">
+      <div id="testimonials-section-heading" class="section-heading">
+        <h3>Not Sure Yet?</h3>
+        <h2>All four of our synthetic users swear by us</h2>
+      </div>
+
+      <div class="testimonials-carousel-container">
+        <article class="testimonial">
+          <h4 class="testimonial-heading">Best financial decision ever!</h4>
+          <blockquote>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas voluptate nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam autem esse non voluptatem saepe provident nihil molestiae.
+          </blockquote>
+          <cite>
+            <img src="./assets/user-1.jpg" alt="Photo of one of the users" width="128" height="128">
+            <h5>User One</h5>
+            <p>San Francisco, USA</p>
+          </cite>
+        </article>
+
+        <article class="testimonial">
+          <h4 class="testimonial-heading">The last step to becoming a complete sucker</h4>
+          <blockquote>
+            Quisquam itaque deserunt ullam, quia ea repellendus provident, ducimus neque ipsam modi voluptatibus doloremque, corrupti laborum. Incidunt numquam perferendis veritatis neque repellendus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt exercitationem deleniti.
+          </blockquote>
+          <cite>
+            <img src="./assets/user-2.jpg" alt="Photo of one of the users" width="128" height="128">
+            <h5>User Two</h5>
+            <p>London, UK</p>
+          </cite>
+        </article>
+
+        <article class="testimonial">
+          <h4 class="testimonial-heading">Finally free from old-school banks.</h4>
+          <blockquote>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas voluptate nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam autem esse non voluptatem saepe provident nihil molestiae.
+          </blockquote>
+          <cite>
+            <img src="./assets/user-3.jpg" alt="Photo of one of the users" width="128" height="128">
+            <h5>User Three</h5>
+            <p>Lisbon, Portugal</p>
+          </cite>
+        </article>
+      </div>
+    </section>
+    
+  </main>
+  <section id="cta-section" class="cta-section trailing-divider">
+    <h2>No more hesitation. Join FakeBank and start learning Web Development today!</h2>
+    <button class="button button-new-account">Open your free account now</button>
+  </section>
+  
+  <footer>
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Terms of use</a></li>
+      <li><a href="#">Privacy policy</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <img src="./assets/logo.jpg" alt="" width="1120" height="1120">
+    <p>© Copyright 476CE Fake Bank LLC.</p>
+  </footer>
+
+  <!-- New account modal -->
+   <dialog class="new-account-modal" id="new-account-modal"  closedby="any">
+      <h2>Open your bank account in just <span class="word-highlight">5 minutes</span></h2>
+      <form class="new-account-form" method="dialog">
+        <div class="new-account-form-grid-container">
+          <label for="new-account-fname">First Name</label>
+          <input type="text" id="new-account-fname" size="10" required>
+          <label for="new-account-lname">Last Name</label>
+          <input type="text" id="new-account-lname" size="10" required>
+          <label for="new-account-email">Email</label>
+          <input type="email" id="new-account-email" size="30" required>
+        </div>
+        <!-- validation happens only with a button type=submit upon click -->
+        <button class="button button-new-account" id="button-close-new-account-modal">Continue →</button>
+      </form>
+   </dialog>
+
+</body>
+</html>
+
