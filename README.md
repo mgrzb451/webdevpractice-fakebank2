@@ -1,4 +1,5 @@
 # FakeBank Home Page
+[hosted on github.pages](https://mgrzb451.github.io/webdevpractice-fakebank2/)
 
 ## What I learned
 In the course of this project I learned and practiced:
